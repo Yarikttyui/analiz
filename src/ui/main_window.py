@@ -137,7 +137,7 @@ class MainWindow(QMainWindow):
         header.setSectionResizeMode(0, QHeaderView.ResizeMode.Fixed)
         self.table.setColumnWidth(0, TABLE_ICON_COLUMN_WIDTH)
         
-        self.table.setAlternatingRowColors(True)
+        self.table.setAlternatingRowColors(False)
         self.table.setSelectionBehavior(QTableWidget.SelectionBehavior.SelectRows)
         self.table.setFont(QFont('Segoe UI', 10))
         

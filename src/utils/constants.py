@@ -35,10 +35,12 @@ APP_STYLE = """
         background-color: #2d2d2d;
         gridline-color: #404040;
         color: #e0e0e0;
+        alternate-background-color: #2d2d2d;
     }
     QTableWidget::item {
         padding: 10px;
         color: #e0e0e0;
+        background-color: #2d2d2d;
     }
     QTableWidget::item:selected {
         background-color: #3a3a3a;
